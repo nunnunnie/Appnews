@@ -18,7 +18,7 @@
       </ion-thumbnail>
       <h2>{{news.data.title}}</h2>
       <P>{{news.data.author}}</P>
-      <button ion-button clear item-end>
+      <button ion-button clear item-end (click) = "viewDetail(news.data)">
         view
       </button>
     </ion-item>
